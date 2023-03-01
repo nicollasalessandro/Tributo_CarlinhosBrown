@@ -165,7 +165,7 @@ nav a:hover {
     background-color: #f8f8f8;
     margin-top: 20px;
     margin-left: 40px;
-    width: 1500px;
+    padding-bottom: 50px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px 0px rgb(190, 190, 190);
 }
@@ -217,6 +217,8 @@ aside p {
     color: #525252;
     margin: 15px;
 }
+
+
 
 .lista h1 {
     padding-top: 50px;
