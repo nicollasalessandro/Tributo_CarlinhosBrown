@@ -75,9 +75,7 @@ nav a:hover {
 
 .banner_fotos {
     display: flex;
-    align-items: center;
-    height: 479px;
- 
+    height: 400px;
 
 }
 
@@ -92,3 +90,32 @@ nav a:hover {
 
 }
 
+article .widget {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+article .widget_body {
+    align-items: center;
+}
+
+article .widget_body_content {
+    margin: auto;
+    width: 75%;
+    background-color: #ebeaea;
+    border-radius: 30px;
+}
+
+.widget_body_title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.widget_body_title img {
+    margin-top: 20px;
+    margin-right: 50px;
+    height: 90px;
+    width: 250px;
+}
