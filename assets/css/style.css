@@ -87,8 +87,60 @@ nav a:hover {
     flex: 1;
     justify-content: space-around;
     width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+    transition: all .5s;
+    border: 10px solid #eeeeee; 
 
 }
+
+
+
+.banner_fotos .foto1 img:hover{
+    border: 10px solid #525252;
+    border-radius: 2%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,0.5));
+    -webkit-transform: rotate(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+}
+
+.banner_fotos .foto2 img:hover{
+    border: 10px solid #525252;
+    border-radius: 5%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,0.5));
+    -webkit-transform: rotate(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+}
+
+.banner_fotos .foto3 img:hover{
+    border: 10px solid #525252;
+    border-radius: 5%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,0.5));
+    -webkit-transform: rotate(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+}
+
+.banner_fotos .foto4 img:hover{
+    border: 10px solid #525252;
+    border-radius: 5%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,0.5));
+    -webkit-transform: rotate(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+}
+
+.banner_fotos .foto5 img:hover{
+    border: 10px solid #525252;
+    border-radius: 5%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,0.5));
+    -webkit-transform: rotate(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+}
+
 
 article .widget {
     display: flex;
